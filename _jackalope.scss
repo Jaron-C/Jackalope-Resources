@@ -1,0 +1,205 @@
+// ----------------------/
+/* Colors & Transitions */
+// ----------------------/
+
+// Un-commnent to use extensive SASS color library
+// $brand-primary:         #2e3e4d;
+// $brand-primary-light:   #6e7e8e;
+// $brand-primary-lighter: #a3a4a6;
+// $brand-primary-dark:    #32353c;
+//
+// $brand-secondary:       #73c075;
+// $brand-secondary-dark:  #47a447;
+
+// Un-comment this to use a beautiful gradient
+// .radial-brand {
+//   background-image: radial-gradient(at 50% top, rgba(194, 85, 92, 0.6) 0%, rgba(194, 85, 92, 0) 75%), radial-gradient(at right top, #d45564 0%, rgba(212, 85, 100, 0) 57%);
+//   background-image: -webkit-radial-gradient(50% top, rgba(194, 85, 92, 0.6) 0%, rgba(194, 85, 92, 0) 75%), -webkit-radial-gradient(right top, #d45564 0%, rgba(212, 85, 100, 0) 57%);
+//   background-repeat: no-repeat;
+// }
+
+
+// Un-comment this and install compass to enable CSS transitions (sassinated from: http://codepen.io/sawmac/pen/cayhK)
+// =transition($transition...)
+//     -moz-transition:    $transition
+//     -o-transition:      $transition
+//     -webkit-transition: $transition
+//     transition:         $transition
+// =transition-property($property...)
+//     -moz-transition-property:    $property
+//     -o-transition-property:      $property
+//     -webkit-transition-property: $property
+//     transition-property:         $property
+// =transition-duration($duration...)
+//     -moz-transition-property:    $duration
+//     -o-transition-property:      $duration
+//     -webkit-transition-property: $duration
+//     transition-property:         $duration
+// =transition-timing-function($timing...)
+//     -moz-transition-timing-function:    $timing
+//     -o-transition-timing-function:      $timing
+//     -webkit-transition-timing-function: $timing
+//     transition-timing-function:         $timing
+// =transition-delay($delay...)
+//     -moz-transition-delay:    $delay
+//     -o-transition-delay:      $delay
+//     -webkit-transition-delay: $delay
+//     transition-delay:         $delay
+//
+// a
+//   color: blue
+//   display: inline-block
+//   padding: 10px
+//   text-decoration: none
+//   background-color: orange
+//   border-radius: 4px
+//   +transition(background-color 1s .5s, color 2s)
+//   $hover
+//     color: red
+//     background-color: blue
+
+// Un-comment to use css transitions when hovering on colors
+// a
+//   color: $brand-secondary
+//   +secondary-color()
+// .primary-color
+//   +transition
+//   &:hover
+//     color: $brand-primary-dark
+//     text-decoration: none
+//
+// .secondary-color
+//   +transition
+//   &:hover
+//     color: $brand-secondary-dark
+//     text-decoration: none
+//
+// .primary-background
+//   +transition
+//   &:hover
+//     background: $brand-primary-dark
+//
+// .secondary-background
+//   +transition(1s)
+//   &:hover
+//     background: $brand-secondary-dark
+
+
+
+// --------------/
+/* Fonts & Type */
+// --------------/
+
+// Un-comment to import Google Fonts
+// @import url('http://fonts.googleapis.com/css?family=Bowlby+One+SC');
+// h2, h3 {
+//   font-family: 'Bowlby One SC';
+//   letter-spacing: 2px;
+// }
+
+
+// Uncomment this to use the SASS Version of one liner bulletproof SASS fonts – from: https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
+// It should essentially output the below LESS, but with just this one line
+// +font-face(font-name, ../../../fonts/, weight, font-style)
+
+// LESS EXAMPLE _DONT USE_ Un-comment to use bullet-proof custom fonts
+// @font-face {
+//   font-family: 'ProximaNova';
+//   src: url('../../../fonts/ProximaNova-Light.eot'); IE9 Compat Modes
+//   src: url('../../../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'), IE6-IE8
+//   url('../../../fonts/ProximaNova-Light.woff') format('woff'), Modern Browsers
+//   url('../../../fonts/ProximaNova-Light.ttf')  format('truetype'), Safari, Android, iOS
+//   url('../../../fonts/ProximaNova-Light.svg#svgProximaNova') format('svg'); Legacy iOS
+// }
+//
+// @font-face {
+//   font-family: 'ProximaNova';
+//   font-weight: bold;
+//   src: url('../../../fonts/ProximaNova-Bold.eot'); IE9 Compat Modes
+//   src: url('../../../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), IE6-IE8
+//   url('../../../fonts/ProximaNova-Bold.woff') format('woff'), Modern Browsers
+//   url('../../../fonts/ProximaNova-Bold.ttf')  format('truetype'), Safari, Android, iOS
+//   url('../../../fonts/ProximaNova-Bold.svg#svgProximaNova') format('svg'); Legacy iOS
+// }
+
+// h1, h2, h3, h4, h5, h6, p, body, a {
+//   font-family: 'ProximaNova';
+// }
+//
+// p {
+//   font-size: 15px;
+//   line-height: 1.5;
+//   @media (min-width: $screen-sm-min) {
+//     font-size: 17px;
+//     line-height: 1.6;
+//   }
+// }
+
+// ------------/
+/* Formatting */
+// ------------/
+
+// Un-comment this selector enable vertical centering
+// .vcenter {
+//     display: inline-block;
+//     vertical-align: middle;
+//     float: none;
+// }
+
+// Un-comment these selectors to enable verticle align
+// .table {
+//     width: 100%;
+//     height: 400px;
+//     display: table;
+// }
+// /* .table-cell {
+//     display: table-cell;
+//     vertical-align: middle;
+//     text-align: center;
+// }
+
+// Un-comment this to use the quick padding classes
+// .top-pad-lg() {
+//   padding-top: 62px;
+//   @media (min-width: $screen-md-min) {
+//     padding-top: 132px;
+//   }
+// }
+//
+// .top-pad-md() {
+//   padding-top: 46px;
+//   @media (min-width: $screen-md-min) {
+//     padding-top: 86px;
+//   }
+// }
+//
+// .bottom-pad($pad: 24px) {
+//   padding-bottom: $pad;
+// }
+
+// Un-comment this to use rounded-images
+// .border-radius ($radius: 6px) {
+//   -webkit-border-radius: $radius;
+//   -moz-border-radius:    $radius;
+//   border-radius:         $radius;
+//
+//   -moz-background-clip:    padding;
+//   -webkit-background-clip: padding-box;
+//   background-clip:         padding-box;
+// }
+
+
+// ----------------------/
+/* Media Queries */
+// ----------------------/
+
+// Un-comment this to enable specific display media queries
+// .no-lg {
+//   display: inherit;
+//   @media (min-width: $screen-lg-min) {
+//     display: none;
+//   }
+//   @media (min-width: 1600px) {
+//     display: inherit;
+//   }
+// }
