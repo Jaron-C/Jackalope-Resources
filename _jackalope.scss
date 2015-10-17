@@ -150,7 +150,7 @@ $input: #fffedf;
 /* Typography */
 
 h1, h2, h3, h4, h5, h6, p, body, a {
-  font-family: 'ProximaNova';
+  font-family: 'ProximaNova', $helvetica;
   color: $dark-grey;
   font-size: 18px;
 }
@@ -416,7 +416,7 @@ p {
     background-color: #fff;
     border-color: #ddd;
     text-align: center;
-    font-family: 'Proxima Nova';
+    font-family: 'Proxima Nova', $helvetica;
     font-size: 18px;
 
     .panel-title {
